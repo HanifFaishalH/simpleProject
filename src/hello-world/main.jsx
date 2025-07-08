@@ -8,6 +8,7 @@ import TodoList from "../todolist/TodoList.jsx";
 import Table from "../table/Table.jsx";
 import Toolbar from "../button/Toolbar.jsx";
 import SearchForm from "../form/SearchForm.jsx";
+import SayHelloForm from "../form/SayHelloForm.jsx";
 
 createRoot(document.querySelector("#root")).render(
     <StrictMode>
@@ -26,6 +27,7 @@ createRoot(document.querySelector("#root")).render(
             }}/>
 
             <SearchForm />
+            <SayHelloForm />
         </Container>
     </StrictMode>
 )
