@@ -9,6 +9,7 @@ import Table from "../table/Table.jsx";
 import Toolbar from "../button/Toolbar.jsx";
 import SearchForm from "../form/SearchForm.jsx";
 import SayHelloForm from "../form/SayHelloForm.jsx";
+import Counter from "../form/Counter.jsx";
 
 createRoot(document.querySelector("#root")).render(
     <StrictMode>
@@ -28,6 +29,8 @@ createRoot(document.querySelector("#root")).render(
 
             <SearchForm />
             <SayHelloForm />
+            <Counter />
+            <Counter />
         </Container>
     </StrictMode>
 )
